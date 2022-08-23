@@ -54,6 +54,7 @@ namespace TcpMulticastClient
             try
             {
                 options.Parse(args);
+                Console.WriteLine(123);
             }
             catch (OptionException e)
             {
